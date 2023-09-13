@@ -1,9 +1,9 @@
 {
   "name": "strapi-preview-link",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Create a preview link for strapi content",
   "strapi": {
-    "name": "Strapi Preview Link",
+    "name": "strapi-preview-link",
     "description": "Create a preview link for strapi content",
     "kind": "plugin"
   },
@@ -11,6 +11,7 @@
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
     "@strapi/icons": "^1.6.3",
+    "immer": "^10.0.2",
     "react-redux": "^8.1.2"
   },
   "devDependencies": {
@@ -22,12 +23,18 @@
     "react-dom": "^18.2.0",
     "typescript": "5.0.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanzdr/strapi-preview-link.git"
+  },
   "author": {
-    "name": "Alanderson Zelindro da Rosa <alanzdr>"
+    "name": "Alanderson Zelindro da Rosa",
+    "url": "https://github.com/alanzdr"
   },
   "maintainers": [
     {
-      "name": "Alanderson Zelindro da Rosa <alanzdr>"
+      "name": "Alanderson Zelindro da Rosa",
+      "url": "https://github.com/alanzdr"
     }
   ],
   "engines": {
